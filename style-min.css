@@ -5,7 +5,50 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+}/* retouche css */
+
+.text-center {
+    color: #303030 !important;
 }
+
+blockquote {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+}
+
+blockquote span {
+    font-size: 1.5rem;
+}
+
+.col-sm-6 p {
+    font-size: 0.9rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    min-height: 350px;
+    background: rgba(243, 151, 108, 0.6);
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+p .adresse {
+    font-size: 1rem !important;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+
+/*fin retouche css*/
+
 
 a,
 button {
@@ -658,12 +701,12 @@ a {
     max-width: 1000px;
 }
 
-.hero-bloc-text {
-    font-size: 38px;
-}
+.hero-bloc-text {	
+    font-size: 38px;	
+}	
 
-.hero-bloc-text-sub {
-    font-size: 36px;
+.hero-bloc-text-sub {	
+    font-size: 36px;	
 }
 
 .statement-bloc-text {
@@ -778,6 +821,14 @@ h4 {
     color: #F3976C!important;
 }
 
+.tc-black {
+    font-size: 2.5rem !important;
+}
+
+.tc-grey {
+    font-size: 2rem !important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
@@ -822,7 +873,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
