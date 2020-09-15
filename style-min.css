@@ -35,7 +35,7 @@ blockquote span {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.5rem!important;
 }
 
 h1 {
@@ -366,10 +366,6 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -540,7 +536,7 @@ min-device-width .panel-rd .panel-heading {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color:rgba(243,151,108,.8);
     box-shadow: none;
 }
 
