@@ -38,10 +38,6 @@ p {
     font-size: 1.5rem;
 }
 
-p .adresse {
-    font-size: 1rem !important;
-}
-
 h1 {
     text-transform: uppercase;
 }
@@ -131,11 +127,6 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -540,7 +531,7 @@ button {
     border-radius: 30px;
 }
 
-.panel-rd .panel-heading {
+min-device-width .panel-rd .panel-heading {
     border-radius: 29px 29px 0 0;
 }
 
@@ -830,12 +821,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #303030;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #5a5a5a!important;
     color: #FFFFFF!important;
 }
 
@@ -899,13 +890,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -923,7 +914,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    .bloc { 
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
